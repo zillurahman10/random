@@ -1,5 +1,5 @@
 .banner-container{
-    height: 50px;
+    /* height: 50px; */
 }
 
 .service-title{
@@ -7,17 +7,17 @@
 }
 
 .img-cont{
-    margin-left: 60px;
-    margin-top: 30px;
+    /* margin-left: 60px; */
+    
 }
 
 .form-container{
-    margin-left: 80px;
+    /* margin-left: 80px; */
 }
 
 .div-1{
-    padding: 40px;
-    margin-left: 150px;
+    padding: 40px 0px 40px 0px;
+    /* margin-left: 150px; */
 }
 
 .footer-div{
@@ -30,14 +30,34 @@
 
 .service-container{
     padding: 5px;
-    margin-top: 1000px;
+    /* margin-top: 1000px; */
 }
 
 .contact-us{
     margin-top: 50px;
 }
 
-.header-cls{
-    margin-left: 120px;
-    margin-right: 120px;
-}
+/* For small screens (like mobile devices, up to 600px) */
+@media only screen and (max-width: 600px) {
+    .header-cls {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+  
+  /* For medium to large screens (tablets, small laptops, up to 1200px) */
+  @media only screen and (min-width: 601px) and (max-width: 1200px) {
+    .header-cls {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }
+  
+  /* For extra large screens (desktops and larger, above 1200px) */
+  @media only screen and (min-width: 1201px) {
+    .header-cls {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  }
+  
